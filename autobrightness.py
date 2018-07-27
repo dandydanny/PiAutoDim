@@ -1,3 +1,7 @@
+# PiAutoDim
+# Auto-Dimming for the Raspberry-Pi 7" Touchscreen LCD Display
+# Based on https://gpiozero.readthedocs.io/en/stable/recipes.html#light-sensor
+
 from gpiozero import LightSensor
 from time import sleep
 
