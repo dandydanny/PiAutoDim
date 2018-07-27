@@ -3,7 +3,7 @@
 Auto-Dimming for the Raspberry-Pi 7" Touchscreen LCD Display
 
 ### What?
-Code and schematic diagram to automatically dim the backlight of the Raspberry-Pi Official 7" Touchscreen LCD display.
+Code and schematic diagram to automatically dim the backlight of the Raspberry-Pi Official 7" Touchscreen LCD display. Based on [this light-sensor example](https://gpiozero.readthedocs.io/en/stable/recipes.html#light-sensor) from [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/).
 
 ### Why?
 1. I don't want to be blinded by the bright LCD backlight at night
