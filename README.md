@@ -82,5 +82,9 @@ Check if it's running:
 
 Adjust the amount of light falling on the Cds sensor. The backlight level should change accordingly.
 
+### License
+
+MIT
+
 ### About
 Daniel is a web developer seeking opportunities, beverage socials, and late-night taco runs. [dandydanny.github.io](https://git.io/vxurG)
