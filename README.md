@@ -33,7 +33,7 @@ Insert:
 
 `SUBSYSTEM=="backlight",RUN+="/bin/chmod 666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power"`
 
-#### Put `autobrightness.py` on your pi, in a directory called `autobrightness`:
+#### Put `autobrightness.py` on your pi, in a directory called `PiAutoDim`:
 
 `git clone https://github.com/dandydanny/PiAutoDim.git`
 
@@ -54,7 +54,7 @@ Description=Get auto brightness service running at boot
 After=mosquitto.service mysql.service
 
 [Service]
-ExecStart=/usr/bin/python3 /home/pi/autobrightness/autobrightness.py
+ExecStart=/usr/bin/python3 /home/pi/PiAutoDim/autobrightness.py
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
