@@ -33,8 +33,11 @@ Insert:
 
 `SUBSYSTEM=="backlight",RUN+="/bin/chmod 666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power"`
 
-#### Enable autorun of `autobrightness.py` on boot, by making it a `systemd` service
+#### Put `autobrightness.py` on your pi, in a directory called `autobrightness`:
 
+`git clone https://github.com/dandydanny/PiAutoDim.git`
+
+#### Enable autorun of `autobrightness.py` on boot, by making it a `systemd` service
 
 In `/etc/systemd/system/`, make a `autobrightness.service` file.
 
